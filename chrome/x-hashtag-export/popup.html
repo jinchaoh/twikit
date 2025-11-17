@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>X Hashtag Exporter</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;padding:12px;width:340px}
+    label{display:block;margin:8px 0 4px}
+    input,select,button{width:100%;box-sizing:border-box;padding:6px}
+    .row{display:flex;gap:8px}
+    .row>*{flex:1}
+    #status{margin-top:8px;font-size:12px}
+  </style>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <label>Hashtag or query</label>
+  <input id="query" placeholder="#python or query with operators">
+  <div class="row" style="margin-top:8px">
+    <div>
+      <label>View</label>
+      <select id="product">
+        <option value="Top">Top</option>
+        <option value="Latest">Latest</option>
+        <option value="Media">Media</option>
+      </select>
+    </div>
+    <div>
+      <label>Format</label>
+      <select id="format">
+        <option value="json">JSON</option>
+        <option value="csv">CSV</option>
+      </select>
+    </div>
+  </div>
+  <label style="margin-top:8px">Max count</label>
+  <input id="maxCount" type="number" min="1" step="100" value="1000" />
+  <button id="start" style="margin-top:12px">Start Export</button>
+  <div id="status"></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>X User Content Exporter</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;padding:12px;width:360px}
+    label{display:block;margin:8px 0 4px}
+    input,select,button{width:100%;box-sizing:border-box;padding:6px}
+    .row{display:flex;gap:8px}
+    .row>*{flex:1}
+    #status{margin-top:8px;font-size:12px}
+  </style>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <label>Screen name</label>
+  <input id="screenName" placeholder="e.g. justinhwong_ or @justinhwong_">
+  <div class="row" style="margin-top:8px">
+    <div>
+      <label>View</label>
+      <select id="view">
+        <option value="Tweets">Tweets</option>
+        <option value="TweetsAndReplies">Tweets & Replies</option>
+        <option value="Media">Media</option>
+        <option value="Likes">Likes</option>
+      </select>
+    </div>
+    <div>
+      <label>Format</label>
+      <select id="format">
+        <option value="json">JSON</option>
+        <option value="csv">CSV</option>
+      </select>
+    </div>
+  </div>
+  <label style="margin-top:8px">Max count</label>
+  <input id="maxCount" type="number" min="1" step="100" value="1000" />
+  <button id="start" style="margin-top:12px">Start Export</button>
+  <div id="status"></div>
+</body>
+</html>

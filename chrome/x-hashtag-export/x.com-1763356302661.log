@@ -1,0 +1,79 @@
+webcomponents-bundle.js:45 Uncaught SyntaxError: Unexpected identifier 'as' (at webcomponents-bundle.js:45:13)
+content-script.js:2 [x-hashtag-export] content script loaded {url: 'https://x.com/justinhwong_/following'}
+vendor.79c2038a.js:10 Error
+index.0cc0b8d6.js:14198 [Podawaa X-Actions] Script loaded on https://x.com/justinhwong_/following
+index.0cc0b8d6.js:14199 [Podawaa X-Actions] Browser available: true
+index.0cc0b8d6.js:14200 [Podawaa X-Actions] Chrome available: true
+index.0cc0b8d6.js:14203 [Podawaa X-Actions] Capturing cookies from: https://x.com/justinhwong_/following
+index.0cc0b8d6.js:14204 [Podawaa X-Actions] document.cookie length: 708
+index.0cc0b8d6.js:14212 [Podawaa X-Actions] Found 11 cookies
+index.0cc0b8d6.js:14213 [Podawaa X-Actions] Cookie names: guest_id, ct0, twid, dnt, __cuid, ph_phc_TXdpocbGVeZVm5VJmAsHTMrCofBQu3e0kN8HGMNGTVW_posthog, lang, d_prefs, guest_id_ads, guest_id_marketing, personalization_id
+index.0cc0b8d6.js:14215 [Podawaa X-Actions] Found X auth cookies, sending to background
+index.0cc0b8d6.js:14216 [Podawaa X-Actions] auth_token: false ct0: true
+index.0cc0b8d6.js:14693 [X Actions] Content script loaded for X.com
+index.0cc0b8d6.js:15290 [Podawaa] init AppContent x.com
+index.b6956077.js:4062 [ExtensionConfigManager] Fetching config with headers: {common: {…}, delete: {…}, get: {…}, head: {…}, post: {…}, …}
+index.b6956077.js:4062 [ExtensionConfigManager] Fetching config with headers: {common: {…}, delete: {…}, get: {…}, head: {…}, post: {…}, …}
+index.0cc0b8d6.js:14222 [Podawaa X-Actions] Background responded: {received: true}
+loader.DMDrawer.551f0e4a.js:1 [Violation] Added non-passive event listener to a scroll-blocking 'touchmove' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+（匿名） @ loader.DMDrawer.551f0e4a.js:1
+（匿名） @ loader.DMDrawer.551f0e4a.js:1
+isTouchSupported @ loader.DMDrawer.551f0e4a.js:1
+C @ shared~loader.DMDrawer~bundle.DirectMessages.1577e42a.js:1
+xa @ vendor.79c2038a.js:86
+Es @ vendor.79c2038a.js:86
+bl @ vendor.79c2038a.js:86
+ml @ vendor.79c2038a.js:86
+gl @ vendor.79c2038a.js:86
+il @ vendor.79c2038a.js:86
+w @ vendor.79c2038a.js:95
+I @ vendor.79c2038a.js:95
+loader.DMDrawer.551f0e4a.js:1 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+（匿名） @ loader.DMDrawer.551f0e4a.js:1
+（匿名） @ loader.DMDrawer.551f0e4a.js:1
+isTouchSupported @ loader.DMDrawer.551f0e4a.js:1
+C @ shared~loader.DMDrawer~bundle.DirectMessages.1577e42a.js:1
+xa @ vendor.79c2038a.js:86
+Es @ vendor.79c2038a.js:86
+bl @ vendor.79c2038a.js:86
+ml @ vendor.79c2038a.js:86
+gl @ vendor.79c2038a.js:86
+il @ vendor.79c2038a.js:86
+w @ vendor.79c2038a.js:95
+I @ vendor.79c2038a.js:95
+index.b6956077.js:4064 [ExtensionConfigManager] Config received: {hack: {…}, sentryConfig: {…}, latestVersion: '5.0.3'}
+index.0cc0b8d6.js:15316 [Podawaa] Extension version: 5.0.15
+index.0cc0b8d6.js:15317 [Podawaa] Using auth version: V2
+index.b6956077.js:4064 [ExtensionConfigManager] Config received: {hack: {…}, sentryConfig: {…}, latestVersion: '5.0.3'}
+content-script.js:213 [x-hashtag-export] Received start command {cmd: 'twikit-hashtag-start', query: '#python', product: 'Top', format: 'json', maxCount: 1000}
+content-script.js:71 [x-hashtag-export] Endpoint from background https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline
+content-script.js:163 [x-hashtag-export] Search start {query: '#python', product: 'Top', maxCount: 1000, endpoint: 'https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline'}
+content-script.js:56 [x-hashtag-export] GQL GET https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline {rawQuery: '#python', count: 20, querySource: 'typed_query', product: 'Top'} features:yes
+content-script.js:42 [x-hashtag-export] HTTP GET https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline {variables: '{"rawQuery":"#python","count":20,"querySource":"typed_query","product":"Top"}', features: '{"creator_subscriptions_tweet_preview_api_enabled"…rue,"responsive_web_enhance_cards_enabled":false}'}
+content-script.js:43  GET https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline?variables=%7B%22rawQuery%22%3A%22%23python%22%2C%22count%22%3A20%2C%22querySource%22%3A%22typed_query%22%2C%22product%22%3A%22Top%22%7D&features=%7B%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22c9s_tweet_anatomy_moderator_badge_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22responsive_web_twitter_article_tweet_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22rweb_video_timestamps_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Atrue%2C%22verified_phone_label_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22responsive_web_media_download_video_enabled%22%3Afalse%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D 404 (Not Found)
+httpGet @ content-script.js:43
+gqlGet @ content-script.js:57
+directSearchTweets @ content-script.js:171
+await in directSearchTweets
+（匿名） @ content-script.js:215
+content-script.js:44 [x-hashtag-export] HTTP STATUS 404 URL https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline?variables=%7B%22rawQuery%22%3A%22%23python%22%2C%22count%22%3A20%2C%22querySource%22%3A%22typed_query%22%2C%22product%22%3A%22Top%22%7D&features=%7B%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22c9s_tweet_anatomy_moderator_badge_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22responsive_web_twitter_article_tweet_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22rweb_video_timestamps_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Atrue%2C%22verified_phone_label_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22responsive_web_media_download_video_enabled%22%3Afalse%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+content-script.js:47 [x-hashtag-export] HTTP ERROR BODY 
+content-script.js:174 [x-hashtag-export] Fallback to Latest due to error 404
+content-script.js:56 [x-hashtag-export] GQL GET https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline {rawQuery: '#python', count: 20, querySource: 'typed_query', product: 'Latest'} features:yes
+content-script.js:42 [x-hashtag-export] HTTP GET https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline {variables: '{"rawQuery":"#python","count":20,"querySource":"typed_query","product":"Latest"}', features: '{"creator_subscriptions_tweet_preview_api_enabled"…rue,"responsive_web_enhance_cards_enabled":false}'}
+content-script.js:43  GET https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline?variables=%7B%22rawQuery%22%3A%22%23python%22%2C%22count%22%3A20%2C%22querySource%22%3A%22typed_query%22%2C%22product%22%3A%22Latest%22%7D&features=%7B%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22c9s_tweet_anatomy_moderator_badge_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22responsive_web_twitter_article_tweet_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22rweb_video_timestamps_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Atrue%2C%22verified_phone_label_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22responsive_web_media_download_video_enabled%22%3Afalse%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D 404 (Not Found)
+httpGet @ content-script.js:43
+gqlGet @ content-script.js:57
+directSearchTweets @ content-script.js:176
+await in directSearchTweets
+（匿名） @ content-script.js:215
+content-script.js:44 [x-hashtag-export] HTTP STATUS 404 URL https://x.com/i/api/graphql/7r8ibjHuK3MWUyzkzHNMYQ/SearchTimeline?variables=%7B%22rawQuery%22%3A%22%23python%22%2C%22count%22%3A20%2C%22querySource%22%3A%22typed_query%22%2C%22product%22%3A%22Latest%22%7D&features=%7B%22creator_subscriptions_tweet_preview_api_enabled%22%3Atrue%2C%22c9s_tweet_anatomy_moderator_badge_enabled%22%3Atrue%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22responsive_web_twitter_article_tweet_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22longform_notetweets_rich_text_read_enabled%22%3Atrue%2C%22longform_notetweets_inline_media_enabled%22%3Atrue%2C%22rweb_video_timestamps_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Atrue%2C%22verified_phone_label_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Atrue%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Atrue%2C%22responsive_web_media_download_video_enabled%22%3Afalse%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+content-script.js:47 [x-hashtag-export] HTTP ERROR BODY 
+content-script.js:235 [x-hashtag-export] Search error 404
+index.0cc0b8d6.js:14203 [Podawaa X-Actions] Capturing cookies from: https://x.com/justinhwong_/following
+index.0cc0b8d6.js:14204 [Podawaa X-Actions] document.cookie length: 708
+index.0cc0b8d6.js:14212 [Podawaa X-Actions] Found 11 cookies
+index.0cc0b8d6.js:14213 [Podawaa X-Actions] Cookie names: guest_id, ct0, twid, dnt, __cuid, ph_phc_TXdpocbGVeZVm5VJmAsHTMrCofBQu3e0kN8HGMNGTVW_posthog, lang, d_prefs, guest_id_ads, guest_id_marketing, personalization_id
+index.0cc0b8d6.js:14215 [Podawaa X-Actions] Found X auth cookies, sending to background
+index.0cc0b8d6.js:14216 [Podawaa X-Actions] auth_token: false ct0: true
+index.0cc0b8d6.js:14222 [Podawaa X-Actions] Background responded: {received: true}
